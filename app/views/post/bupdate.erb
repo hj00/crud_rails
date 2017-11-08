@@ -1,0 +1,7 @@
+수정 페이지입니다.
+<form action="/post/updated/<%= @id%>">
+    <%= @id%>번째 글번호입니다. <br/>
+    제목 : <input type="text" name="ntitle" value=<%= @uall.title%>><br/>
+    내용 : <input type="text" name="ncontent" value=<%= @uall.content %>><br/>
+    <input type="submit">
+</form>
